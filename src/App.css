@@ -14,14 +14,14 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
+
+    min-height: 100vh;
+  /* display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: white; */
 }
 
 .App-link {
@@ -36,3 +36,286 @@
     transform: rotate(360deg);
   }
 }
+
+.first-nav
+{
+  background:linear-gradient(121.36deg,#055b4f 16.03%, #014138 74.54%);
+  width:100%;
+  height:44px;
+  font-size:14px;
+  font-weight: 700px;
+  text-align: center;
+
+
+}
+.second-nav
+{
+  width:100%;
+  height:auto;
+  background:linear-gradient(121.36deg, #f09336 24.03%, #f5ac63 74.54%);
+}
+.krishna-foods 
+{
+
+        height:38px;
+        opacity: 0px;
+        font-family:Poppins;
+        font-size: 16px;
+        font-weight:400;
+        line-height: 24.04px;
+        text-align: left;
+        color:black;
+        text-decoration: none;
+        padding-right: 5px;
+}
+.home 
+    {
+        width:200px;
+        height:45px;
+        opacity: 0px;
+        font-family:Poppins;
+        font-size: 16px;
+        font-weight:400;
+        line-height: 24.04px;
+        text-align: left;
+        color:black;
+        text-decoration: none;
+        padding-right: 5px;
+    }
+    .home:hover 
+    {
+        color:rgb(107,102,102);
+        text-decoration: underline;
+        text-decoration-color: #014138;
+    }
+    .aboutus 
+    {
+        width:200px;
+        height:45px;
+        font-family:Poppins;
+        font-size: 16px;
+        font-weight:400;
+        line-height: 24.04px;
+        text-align: left;
+        color:black;
+        text-decoration: none;
+        padding-right: 5px;
+    }
+    .aboutus:hover
+    {
+        color:rgb(107,102,102);
+        text-decoration: underline;
+        text-decoration-color: #014138;
+    }
+   
+    .menuitems 
+    {
+        width:150px;
+        height:42px;
+        font-family:Poppins;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24.04px;
+        text-align: left;
+        color:black;
+        /* padding-left: 0;
+        padding-right: 0;         */
+        padding-right: 5px;
+    }
+    .dropdown-item
+    {
+      text-decoration: none !important;
+      color:black !important;
+      font-family: Poppins;
+      font-size:19px;
+      font-weight: 400;
+        line-height: 24.04px;
+        text-align: left;
+    }
+    .menuitems:hover 
+    {
+        color:rgb(107,102,102);
+        text-decoration: underline;
+        text-decoration-color: #014138;
+    }
+   
+    .contact-us 
+    {
+        width:200px;
+        height:45px;
+        font-family:Poppins;
+        font-size: 16px;
+        font-weight:400;
+        line-height: 24.04px;
+        text-align: left;
+        color: black; 
+        text-decoration: none;   
+        padding-right: 5px;    
+    }
+    .contact-us:hover
+    {
+        color:rgb(107, 102, 102);
+        text-decoration: underline;
+        text-decoration-color: #014138;
+    }
+    .carousel-item {
+      transition: transform 2s ease, opacity 2s ease;
+    }
+    
+    @keyframes zoom {
+      0% {
+        transform: scale(1);
+      }
+      50% {
+        transform: scale(1.1);
+      }
+      100% {
+        transform: scale(1);
+      }
+    }
+    
+    .carousel-item img {
+      animation: zoom 6s ease-in-out infinite;
+    }
+    .about-cont 
+    {
+      width:100%;
+      height:800px;
+      background:linear-gradient(121.36deg, #ec9a48 24.03%, #f5ac63 74.54%);
+    }
+    @media(max-width:1000px)
+    {
+      .about-cont 
+      {
+        width:100%;
+        height:auto;
+      }
+      .about-us-content h1 
+      {
+        width:100%;
+      height:103px;
+      font-family: Poppins;
+      font-size: 40px;
+      font-weight: 400;
+      line-height: 102.6px;
+      text-align: left;
+      color:#014138;
+      }
+    }
+    .about-us-content h1 
+    {
+      width:100%;
+      height:103px;
+      font-family: Poppins;
+      font-size: 90px;
+      font-weight: 400;
+      line-height: 102.6px;
+      text-align: left;
+      color:#014138;
+    }
+    .about-us-content p 
+    {
+      width:100%;
+      height:500px;
+      font-family:Poppins;
+      font-size: 16px;
+      font-weight:400;
+      line-height: 31.2px;
+      text-align: left;
+      color:#055b4f;
+
+    }
+    .form-part 
+    {
+      background-color: #0F403A;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height:auto;
+          margin: 0;
+    }
+    .form-container {
+        
+      padding:30px;
+      border-radius: 8px;
+      /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+      max-width:700px;
+      width: 100%;
+      color: white;
+  }
+  .form-container h2 
+  {
+    font-family: Neuton;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 50.61px;
+    color:white;
+  }
+  .form-container label 
+  {
+    font-family: Neuton;
+    font-size: 26px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 31.2px;
+    text-align: left;
+    color: #FFFFFF;
+  }
+  .form-container input
+  {
+    background-color:#006A5B;
+    height:50px;
+    border:none;
+  }
+  .form-container textarea
+  {
+    background-color:#006A5B;
+    height:100px;
+    border:none;
+  }
+
+  .submit-button button {
+      width: 209px;
+      height: 52px;
+      border-radius: 26px;
+      background-color: white;
+      font-family: Neuton;
+      font-size: 25px;
+      font-weight: 700;
+      line-height: 32.75px;
+      text-align:center;
+      color: #014138;
+      margin-top:30px;
+    }
+
+    .submit-button button:hover {
+        background-color: #e0d0b6;
+    }
+    .breakfast-cont 
+    {
+      background-color:white;
+    }
+
+    .breakfast-card 
+    {
+      width:100%;
+      height:380px;
+      border:2px solid #f09336;
+    }
+    .breakfast-card img 
+    {
+      height:150px;
+    }
+    .breakfast-text
+    {
+      height:130px;
+    }
+    .breakfast-text strong
+    {
+      width:100%;
+      height:34px;
+      font-family: Poppins;
+      font-size:22px;
+      font-weight:400;
+      color:#055b4f
+    }
